@@ -1,0 +1,70 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build output
+dist/
+build/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+# Ignore C# specific files
+*.dll
+*.exe
+*.pdb
+*.userprefs
+*.suo
+*.cache
+*.csproj.user
+*.obj
+*.bin
+*.bak
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build output
+dist/
+build/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore C# specific files
+*.dll
+*.exe
+*.pdb
+*.userprefs
+*.suo
+*.cache
+*.csproj.user
+
+# Ignore bin and obj folders
+**/bin/
+**/obj/
+
+*.bak
