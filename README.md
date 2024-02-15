@@ -22,9 +22,6 @@ The code uses the user's selection to dynamically load the selected category's l
 
 The code uses the `GetWord()` method of the `RandomWordGame` class to get a random word from the selected category's list of words. It then displays the word to the user.
 
-### Code Formatting
-
-The code is formatted with proper indentation and spacing to make it easier to read and understand.
 
 
 
@@ -96,4 +93,4 @@ foreach (var v in fields.Select((field, index) => new { field, index }))
 }
 ```
 
-[watch tutorial on rflection](https://www.youtube.com/watch?v=MqJ_JjCV-9M)
+[watch tutorial on reflection](https://www.youtube.com/watch?v=MqJ_JjCV-9M)

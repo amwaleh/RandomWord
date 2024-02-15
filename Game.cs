@@ -1,7 +1,8 @@
 namespace Game
 {
 
-    public class RandomWordGame(){
+    public class RandomWordGame()
+    {
 
         private readonly List<string> _words = [];
 
@@ -9,17 +10,20 @@ namespace Game
         {
             _words = words;
         }
-                    
+
 
         public string GetWord()
         {
-            Random randomWord = new Random();
+            Random randomWord = new();
+            if(_words.Count == 0)
+            {
+                return "No words available";
+            }
             int index = randomWord.Next(_words.Count);
-            string word = _words[index];
-            return word;
+            return _words[index];
         }
-        
-            
-        
+
+
+
     }
 }
